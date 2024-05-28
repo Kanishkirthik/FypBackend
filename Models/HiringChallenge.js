@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 const HiringDetails=mongoose.Schema({
     Companyname:{type:String,required:true},
-    JobTitle:{type:String,required:true,unique:true},
+    JobTitle:{type:String,required:true},
     JobDescription:{type:String,required:true},
     Date:{type:Date,required:true}, 
     Status:{type:String,required:true},
